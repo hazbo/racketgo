@@ -1,0 +1,8 @@
+Nothing much to see here. It's pretty much some Go funcs being built into a
+shared C library which are then called in Racket.
+
+Don't ask why.
+
+Usage:
+
+$ make
