@@ -25,7 +25,7 @@ func makeFile() {
 //export startServer
 func startServer() {
 	http.HandleFunc("/", handler)
-	http.ListenAndServe(":3000", nil)
+	go http.ListenAndServe(":3000", nil)
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {

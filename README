@@ -3,6 +3,11 @@ shared C library which are then called in Racket.
 
 Don't ask why.
 
+Requires:
+
+Racket
+Go
+
 Usage:
 
 $ make
